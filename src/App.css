@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.homepage-bgimage {
+  background: url("https://image.winudf.com/v2/image1/Y29tLmd0YWN0aW9uZ2FtZXMuYmlrZXZzYnVzX3NjcmVlbl8xXzE1NjUzNjI0NjVfMDM0/screen-1.jpg?fakeurl=1&type=.jpg");
+
+ 
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
