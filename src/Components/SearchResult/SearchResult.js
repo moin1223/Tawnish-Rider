@@ -3,6 +3,7 @@ import React from 'react';
 import { useParams } from "react-router-dom"
 import FakeData from "../../FakeData/FakeData"
 import map from '../../images/map.png'
+import Direction from '../Map/Direction';
 
 
 const SearchResult = () => {
@@ -19,8 +20,7 @@ const SearchResult = () => {
             </div>
             <div className="col-md-6">
 
-                <img src={map} alt="e" />
-
+              <Direction></Direction>
             </div>
 
         </div>

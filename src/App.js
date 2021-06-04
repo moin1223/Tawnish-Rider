@@ -13,6 +13,8 @@ import SearchResult from './Components/SearchResult/SearchResult';
 import Login from './Components/Login/Login';
 import PrivetRoute from './Components/PrivetRoute/PrivetRoute';
 import Search from './Components/Search/Search';
+import Map from './Components/Map/Map';
+import Direction from './Components/Map/Direction';
 
 
 
@@ -40,12 +42,16 @@ function App() {
           <PrivetRoute path="/search/:id">
           <Search></Search>
           </PrivetRoute>
-          <Route path="/searchResult/:id">
+          <PrivetRoute path="/searchResult/:id">
             <SearchResult></SearchResult>
-          </Route>
+          </PrivetRoute>
           <Route path="/login">
             <Login></Login>
           </Route>
+          <Route path="/map">
+           <Map></Map>
+          </Route>
+          
 
 
         </Switch>
